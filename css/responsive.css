@@ -1,7 +1,10 @@
 @media only screen and (max-width:1200px) {
     .navbar-nav .nav-item {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-top: 10px;
+    }
+    .navbar-nav .contact
+    {
+        margin-top: 0px;
     }
     .intro .content h3 {
         font-size: 46px;
@@ -14,6 +17,29 @@
     {
         width: 100%;
     }
+    .navbar-nav .nav-item
+    {
+        margin-left: 10px;
+        margin-top: 0px;
+        margin-right: 10px;
+    }
+    .portfolioDetails .content .head h5
+    {
+        font-size: 16px;
+    }
+    .portfolioDetails .content .data h1 {
+        font-size: 22px;
+        padding-right: 0px;
+        line-height: 35px;
+    }
+    .portfolioDetails .content .data p
+    {
+        font-size: 16px;
+        padding-right: 0px;
+        line-height: 35px;
+    }
+
+
 }
 
 @media only screen and (max-width:990px) {
@@ -32,9 +58,79 @@
     {
         font-size: 16px;
     }
+    .introPage .head h2
+    {
+        width: 90%;
+    }
+    .aboutCompany-section .pic img
+    {
+        width: 100%;
+    }
+    .aboutCompany-section .content h3 , .getIn-section .content h1
+    {
+        font-size: 28px;
+        line-height: 50px;
+    }
+    .navbar-nav
+    {
+        margin-top: 20px;
+    }
+    .portfolio-section .filter h4
+    {
+        text-align: center;
+    }
+    .portfolio-section .projects .one .pic .content a
+    {
+        top: 42%;
+    }
+    .career-section .content
+    {
+        text-align: center;
+    }
+    .career-section .content h5
+    {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .career-section .pic img
+    {
+        width: 100%;
+    }
+    .portfolio-section .filter .service-btn , .portfolio-section .filter .client-btn
+    {
+        font-size: 12px;
+        padding: 10px!important;
+    }
+    .portfolioDetails .content .skills ul li
+    {
+        margin: 12px 10px;
+    }
+    .portfolioDetails .content .skills
+    {
+        display: block;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .portfolioDetails .content .data ul
+    {
+        display: block;
+    }
+    .portfolioDetails .content .data ul .client , .portfolioDetails .content .data ul .startDate , .portfolioDetails .content .data ul .service
+    {
+        width: 100%;
+    }
+    .portfolioDetails .content .data ul .service h4
+    {
+        text-align: center;
+    }
+    .portfolioDetails .content .head h5
+    {
+        text-align: center;
+    }
 
 }
-@media only screen and (max-width:567px) {
+@media only screen and (max-width:767px) {
     .intro .content h5 , .intro .content a , .ourServices-section .main
     {
         display: block;
@@ -97,6 +193,103 @@
     .digitalEmpowerment-section .head p
     {
         width: 100%;
+    }
+    .coreValues-section .head p
+    {
+        width: 100%;
+    }
+    .coreValues-section .one .content h3
+    {
+        font-size: 14px;
+    }
+    .coreValues-section .one
+    {
+        display: block;
+        text-align: center;
+    }
+    .coreValues-section .one .pic
+    {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .ourTeam-section .one h3
+    {
+        font-size: 18px;
+    }
+    .ourTeam-section .one h5
+    {
+        font-size: 12px;
+    }
+    .hiringCareers-section table h4 , .hiringCareers-section table span ,
+    .hiringCareers-section table a , .hiringCareers-section table h6
+    {
+        font-size: 12px;
+    }
+    .hiringCareers-section .head h3
+    {
+        font-size: 18px;
+    }
+    .atmosphere-section .head h4
+    {
+        font-size: 24px;
+    }
+    .portfolio-section .filter h4
+    {
+        margin-bottom: 30px;
+    }
+    .portfolioDetails .content .head h5 img
+    {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 6px;
+    }
+    .portfolioDetails .AllData .content
+    {
+        display: block;
+    }
+    .portfolioDetails .content .data h1 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .portfolioDetails .content .data p
+    {
+        text-align: center;
+        font-size: 14px;
+    }
+    .portfolioDetails .bigPic img
+    {
+        height: auto;
+    }
+    .portfolioDetails .miniPic
+    {
+        display: flex;
+    }
+    .portfolioDetails .miniPic img {
+        display: block;
+        margin: 0 auto;
+        width: 30%;
+        height: auto;
+    }
+    .portfolioDetails .miniPic .mid
+    {
+        width: 30%;
+    }
+    .portfolioDetails .paginatePage .prevProject .content a , .portfolioDetails .paginatePage .nextProject .content a
+    {
+        font-size: 14px;
+    }
+    .navbar-nav .contact {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .introPage .head h2
+    {
+        width: 100%;
+        line-height: 45px;
+        font-size: 28px;
     }
 
 }
