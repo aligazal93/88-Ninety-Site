@@ -1309,13 +1309,13 @@ color: #FFFFFF;
 }
 .getIn-section .content p
 {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    text-align: center;
-    text-transform: capitalize;
-    color: #6B748D;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+text-transform: capitalize;
+color: #6B748D;
 }
 
 .getIn-section .content a
@@ -1327,10 +1327,10 @@ transition: all .6s ease-in-out;
 text-decoration: none;
 box-shadow: 0px 4px 15px rgba(0, 150, 255, 0.4);
 border-radius: 30px;
-    display: block;
-    width: 200px;
-    margin: 0 auto;
-    margin-top: 30px;
+display: block;
+width: 200px;
+margin: 0 auto;
+margin-top: 30px;
 }
 .getIn-section .content a:hover
 {
@@ -1567,7 +1567,7 @@ width: 100%;
 }
 .portfolioDetails
 {
-    background-color: #fff;
+background-color: #fff;
 margin-top: -100px;
 }
 .portfolioDetails .AllData
@@ -1629,7 +1629,7 @@ margin-bottom: 20px;
 display: flex;
 justify-content: center;
 align-items: center;
-    padding: 14px 0px;
+padding: 14px 0px;
 }
 .portfolioDetails .content .data ul li
 {
@@ -1637,16 +1637,16 @@ border-right: 1px solid rgba(107, 116, 141, 0.1);
 }
 .portfolioDetails .content .data ul .client
 {
-    width: 180px;
+width: 180px;
 }
 .portfolioDetails .content .data ul .startDate
 {
-    width: 250px;
-    margin: 0px 12px;
+width: 250px;
+margin: 0px 12px;
 }
 .portfolioDetails .content .data ul .service h4 span
 {
-    font-size: 14px;
+font-size: 14px;
 }
 .portfolioDetails .content .data ul li:last-child
 {
@@ -1693,7 +1693,7 @@ border-radius: 20px;
 display: flex;
 justify-content: space-evenly;
 align-items: center;
-    margin-bottom: 30px;
+margin-bottom: 30px;
 }
 .portfolioDetails .content .skills ul
 {
@@ -1740,362 +1740,555 @@ object-fit: cover!important;
 width: 100%;
 display: block;
 margin: 0 auto;
-    border-radius: 12px;
+border-radius: 12px;
 height: 500px;
 }
 .portfolioDetails .miniPic
 {
-    display: flex;
+display: flex;
 }
 .portfolioDetails .miniPic img
 {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    height: 250px;
+display: block;
+margin: 0 auto;
+width: 100%;
+height: 250px;
 }
 .portfolioDetails .miniPic .mid
 {
-    width: 90%;
+width: 90%;
 }
 .portfolioDetails .paginatePage
 {
-    display: flex;
-    background-color: #fff;
-    padding-bottom: 50px;
-    padding-left: 30px;
-    justify-content: space-between;
+display: flex;
+background-color: #fff;
+padding-bottom: 50px;
+padding-left: 30px;
+justify-content: space-between;
 }
 .portfolioDetails .paginatePage .nextProject
 {
-    display: flex;
+display: flex;
 }
 .portfolioDetails .paginatePage .nextProject img
 {
-    border-radius: 12px;
-    width: 80px;
-    height: 80px;
-    margin-left: 15px;
+border-radius: 12px;
+width: 80px;
+height: 80px;
+margin-left: 15px;
 }
 .portfolioDetails .paginatePage .nextProject .content h3
 {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    /* identical to box height, or 143% */
-    text-align: right;
-    text-transform: capitalize;
-    color: #0096FF;
-    margin-top: 10px;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+text-align: right;
+text-transform: capitalize;
+color: #0096FF;
+margin-top: 10px;
 }
 .portfolioDetails .paginatePage .nextProject .content a
 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 28px;
-    /* identical to box height, or 140% */
-    text-align: center;
-    text-transform: capitalize;
-    color: #222F54;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+text-align: center;
+text-transform: capitalize;
+color: #222F54;
 }
 .portfolioDetails .paginatePage .prevProject
 {
-    display: flex;
+display: flex;
 }
 .portfolioDetails .paginatePage .prevProject img
 {
-    border-radius: 12px;
-    width: 80px;
-    height: 80px;
-    margin-right: 15px;
+border-radius: 12px;
+width: 80px;
+height: 80px;
+margin-right: 15px;
 }
 .portfolioDetails .paginatePage .prevProject .content h3
 {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    text-align: left;
-    text-transform: capitalize;
-    color: #0096FF;
-    margin-top: 10px;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+text-align: left;
+text-transform: capitalize;
+color: #0096FF;
+margin-top: 10px;
 }
 .portfolioDetails .paginatePage .prevProject .content a
 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 28px;
-    /* identical to box height, or 140% */
-    text-align: center;
-    text-transform: capitalize;
-    color: #222F54;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+text-align: center;
+text-transform: capitalize;
+color: #222F54;
 }
 
 
 
 .career-section
 {
-    padding: 50px 0px;
-    background-color: #fff;
+padding: 50px 0px;
+background-color: #fff;
 }
 .career-section .pic
 {
-    padding: 20px;
-    margin-bottom: 50px;
+padding: 20px;
+margin-bottom: 50px;
 }
 .career-section .pic img
 {
-    display: block;
-    margin: 0 auto;
-    width: auto;
+display: block;
+margin: 0 auto;
+width: auto;
 }
 .career-section .content
 {
-    padding-top: 50px;
+padding-top: 50px;
 }
 .career-section .content h5
 {
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    text-transform: capitalize;
-    font-family: dm-bold;
-    text-align: center;
-    width: 220px;
-    background: rgba(255, 164, 6, 0.1);
-    color: #FFA406;
-    border-radius: 16px;
-    order: 0;
-    font-size: 18px;
-    margin-bottom: 12px;
+justify-content: center;
+align-items: center;
+padding: 10px;
+text-transform: capitalize;
+font-family: dm-bold;
+text-align: center;
+width: 220px;
+background: rgba(255, 164, 6, 0.1);
+color: #FFA406;
+border-radius: 16px;
+order: 0;
+font-size: 18px;
+margin-bottom: 12px;
 }
 .career-section .content h3
 {
-    font-family: dm-bold;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 56px;
-    text-transform: capitalize;
-    color: #222F54;
+font-family: dm-bold;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 56px;
+text-transform: capitalize;
+color: #222F54;
 }
 .career-section .content h3 span
 {
-    color: #0096FF;
+color: #0096FF;
 }
 .career-section .content p
 {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 27px;
-    text-transform: capitalize;
-    color: #6B748D;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 27px;
+text-transform: capitalize;
+color: #6B748D;
 }
 .atmosphere-section
 {
-    background-color: #fff;
-    margin-bottom: 100px;
+background-color: #fff;
+margin-bottom: 100px;
 }
 .atmosphere-section .head
 {
-    text-align: center;
-    margin-bottom: 50px;
+text-align: center;
+margin-bottom: 50px;
 }
 .atmosphere-section .head h4
 {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 56px;
-    /* identical to box height, or 140% */
-    text-align: center;
-    text-transform: capitalize;
-    color: #222F54;
+font-weight: 700;
+font-size: 40px;
+line-height: 56px;
+/* identical to box height, or 140% */
+text-align: center;
+text-transform: capitalize;
+color: #222F54;
 }
 .atmosphere-section .one
 {
-    background: #F6FBFF;
-    border-radius: 20px;
-    text-align: center;
-    padding: 15px 30px;
-    margin-top: 20px;
+background: #F6FBFF;
+border-radius: 20px;
+text-align: center;
+padding: 15px 30px;
+margin-top: 20px;
 }
 .atmosphere-section .one img
 {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    height: 190px;
+display: block;
+margin: 0 auto;
+margin-bottom: 20px;
+height: 190px;
 }
 .atmosphere-section .one h4
 {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 28px;
-    text-align: center;
-    text-transform: capitalize;
-    color: #222F54;
+font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+text-transform: capitalize;
+color: #222F54;
 }
 .atmosphere-section .one p
 {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    text-align: center;
-    text-transform: capitalize;
-    color: #6B748D;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-    padding-bottom: 20px;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+text-transform: capitalize;
+color: #6B748D;
+overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 1;
+-webkit-box-orient: vertical;
+padding-bottom: 20px;
 }
 .hiringCareers-section
 {
-    background: #222F54;
-    padding: 50px 0px;
-    margin-top: 50px;
+background: #222F54;
+padding: 50px 0px;
+margin-top: 50px;
 }
 .hiringCareers-section .head
 {
-    margin-bottom: 50px;
+margin-bottom: 50px;
 }
 .hiringCareers-section .head h5
 {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 27px;
-    color: #CDD3DD;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 27px;
+color: #CDD3DD;
 }
 .hiringCareers-section .head h3
 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 56px;
-    text-transform: capitalize;
-    color: #FFFFFF;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 56px;
+text-transform: capitalize;
+color: #FFFFFF;
 }
 .hiringCareers-section table tr
 {
-    border-bottom: 1px solid rgba(216, 234, 239, 0.1);;
-    margin-bottom: 20px;
+border-bottom: 1px solid rgba(216, 234, 239, 0.1);;
+margin-bottom: 20px;
 }
 .hiringCareers-section table h6
 {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 28px;
-    text-align: center;
-    text-transform: capitalize;
-    color: #FFFFFF;
+font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
 }
 .hiringCareers-section table h4
 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 28px;
-    text-transform: capitalize;
-    color: #FFFFFF;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+text-transform: capitalize;
+color: #FFFFFF;
 }
 .hiringCareers-section table span
 {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 28px;
-    text-align: center;
-    text-transform: capitalize;
-    color: #FFFFFF;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
 }
 .hiringCareers-section table a
 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 28px;
-    float: right;
-    text-transform: capitalize;
-    color: #F37800;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+float: right;
+text-transform: capitalize;
+color: #F37800;
 }
 .hiringCareers-section  table i
 {
-    margin-left: 10px;
-    transform: rotate(45deg);
+margin-left: 10px;
+transform: rotate(45deg);
 }
 
 .hiringCareers-section .loading
 {
-    margin-top: 100px;
-    margin-bottom: 50px;
+margin-top: 100px;
+margin-bottom: 50px;
 }
 .hiringCareers-section .loading img
 {
-    display: block;
-    margin: 0 auto;
+display: block;
+margin: 0 auto;
 }
 .row-padding td, .row-padding th {
-    padding: 20px 0;
+padding: 20px 0;
 }
 
 
 .value-section
 {
-    background-color: #fff;
-    margin-bottom: 50px;
-    margin-top: 100px;
+background-color: #fff;
+margin-bottom: 50px;
+margin-top: 100px;
 }
 .value-section .head
 {
-    text-align: center;
-    margin-bottom: 50px;
+text-align: center;
+margin-bottom: 50px;
 }
 .value-section .head h4
 {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 56px;
-    /* identical to box height, or 140% */
-    text-align: center;
-    text-transform: capitalize;
-    color: #222F54;
+font-weight: 700;
+font-size: 40px;
+line-height: 56px;
+/* identical to box height, or 140% */
+text-align: center;
+text-transform: capitalize;
+color: #222F54;
 }
 .value-section .one
 {
-    background: #F6FBFF;
-    border-radius: 20px;
-    text-align: center;
-    padding: 15px 30px;
-    margin-top: 20px;
+background: #F6FBFF;
+border-radius: 20px;
+text-align: center;
+padding: 15px 30px;
+margin-top: 20px;
 }
 .value-section .one img
 {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    height: 190px;
+display: block;
+margin: 0 auto;
+margin-bottom: 20px;
+height: 190px;
 }
 .value-section .one h4
 {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 28px;
-    text-align: center;
-    text-transform: capitalize;
-    color: #222F54;
+font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+text-transform: capitalize;
+color: #222F54;
 }
 .value-section .one p
 {
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+text-transform: capitalize;
+color: #6B748D;
+overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 1;
+-webkit-box-orient: vertical;
+padding-bottom: 20px;
+}
+.articlesPage
+{
+margin-top: 30px;
+}
+.articlesPage .articlesPage-content .pic
+{
+position: relative;
+    margin-bottom: 15px;
+}
+.articlesPage .articlesPage-content .pic img
+{
+width: 100%;
+object-fit: cover !important;
+border-radius: 12px;
+}
+.articlesPage .articlesPage-content .pic a
+{
+position: absolute;
+right: 0px;
+bottom: 0px;
+width: 150px;
+background-color: #fff;
+text-align: center;
+border-radius: 6px;
+padding: 11px;
+font-style: normal;
+font-weight: 500;
+line-height: 27px;
+text-transform: capitalize;
+font-size: 16px;
+color: #0096FF;
+}
+.articlesPage .articlesPage-content .pic a i
+{
+transform: rotate(315deg);
+margin-left: 8px;
+color: #0096FF;
+}
+.articlesPage .articlesPage-content h2
+{
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
-    text-align: center;
     text-transform: capitalize;
+    color: #222F54;
+}
+.articlesPage .articlesPage-content h2 span
+{
     color: #6B748D;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-    padding-bottom: 20px;
+}
+.articlesPage .articlesPage-content h4
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #222F54;
+    margin-bottom: 30px;
+
+}
+.articlesPage .search-bar
+{
+    background: #FCFEFF;
+    padding: 20px 20px;
+    border: 1px solid rgba(107, 116, 141, 0.1);
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.articlesPage .search-bar form input
+{
+    background: #FFFFFF;
+    border: 1px solid rgba(107, 116, 141, 0.1);
+    border-radius: 30px;
+    width: 100%;
+    padding: 8px 12px;
+    outline: none;
+    position: relative;
+}
+.articlesPage .search-bar form span
+{
+    position: absolute;
+    right: 35px;
+    margin-top: 7px;
+}
+.articlesPage .categories-bar
+{
+    background: #FCFEFF;
+    padding: 20px 20px;
+    border: 1px solid rgba(107, 116, 141, 0.1);
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.articlesPage .categories-bar h4
+{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #222F54;
+    margin-bottom: 20px;
+}
+.articlesPage .categories-bar ul
+{
+    margin-top: 14px;
+    border-left: 1px solid rgba(117, 123, 138, 0.7);
+}
+.articlesPage .categories-bar ul li
+{
+    display: block;
+    transition: all .6s ease-in-out;
+    margin-top: 15px;
+}
+.articlesPage .categories-bar ul li a
+{
+    color: #222F54;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    text-transform: capitalize;
+    transition: all .6s ease-in-out;
+    display: block;
+    padding-left: 20px;
+}
+.articlesPage .categories-bar ul li:hover a
+{
+    border-left: 4px solid #0096FF;
+    padding-left: 20px;
+}
+.articlesPage .categories-bar ul li .active
+{
+    border-left: 4px solid #0096FF;
+    color: #0096FF;
+    font-weight: 700;
+
+}
+.articlesPage .tags-bar
+{
+    background: #FCFEFF;
+    padding: 20px 20px;
+    border: 1px solid rgba(107, 116, 141, 0.1);
+    border-radius: 20px;
+    position: relative;
+}
+.articlesPage .tags-bar h4
+{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #222F54;
+    margin-bottom: 20px;
+}
+.articlesPage .tags-bar ul
+{
+    margin-top: 14px;
+}
+.articlesPage .tags-bar ul li
+{
+    display: inline-block;
+    transition: all .6s ease-in-out;
+    margin-top: 15px;
+    background: rgba(107, 116, 141, 0.1);
+    border-radius: 30px;
+    width: 30%;
+    text-align: center;
+    padding: 12px;
+    transition: all .6s ease-in-out;
+}
+.articlesPage .tags-bar ul li:hover
+{
+    background-color: #0096FF;
+}
+.articlesPage .tags-bar ul li:hover a
+{
+    color: #fff;
+}
+.articlesPage .tags-bar ul li a
+{
+    font-weight: 500;
+    text-transform: capitalize;
+    transition: all .6s ease-in-out;
+    display: block;
+    padding-left: 0px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6B748D;
 }
