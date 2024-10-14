@@ -128,6 +128,18 @@
     {
         text-align: center;
     }
+    .articlesPage .categories-bar ul li a
+    {
+        font-size: 14px;
+    }
+    .careerDetails-section .applyCard
+    {
+        position: relative;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        top: 20px;
+        width: 100%;
+    }
 
 }
 @media only screen and (max-width:767px) {
@@ -282,6 +294,35 @@
     .navbar-nav .contact {
         margin-top: 20px;
     }
+    .contactUs-Content form .textInputs
+    {
+        display: block;
+    }
+    .contactUs-Content form .textInputs .email {
+        margin-left: 0px;
+        margin-top: 12px;
+    }
+    .contactUs-Content .contactData form
+    {
+        width: 90%;
+    }
+    .contactUs-Content .contact-info
+    {
+        display: block;
+    }
+    .contactUs-Content .contact-info .one
+    {
+        margin-top: 12px;
+    }
+    .contactUs-Content .contact-info .mid
+    {
+        margin: 12px 0px;
+    }
+    .careerDetails-section .data ul li h5 span
+    {
+        font-size: 12px;
+    }
+
 }
 
 @media only screen and (max-width:500px) {
@@ -291,5 +332,17 @@
         line-height: 45px;
         font-size: 28px;
     }
-
+    .nextProject .content a {
+        font-size: 12px;
+    }
+    .portfolioDetails .paginatePage .prevProject img {
+        width: 70px;
+        height: 70px;
+        margin-right: 15px;
+    }
+    .portfolioDetails .paginatePage .nextProject img {
+        width: 70px;
+        height: 70px;
+        margin-right: 15px;
+    }
 }

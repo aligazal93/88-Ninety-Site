@@ -54,6 +54,54 @@ a
 {
 text-decoration: none!important;
 }
+h1
+{
+    font-family: dm-bold;
+font-weight: 700;
+font-size: 56px;
+line-height: 72px;
+text-transform: capitalize;
+color: #222F54;
+}
+h2
+{
+font-style: normal;
+    font-family: dm-bold;
+font-weight: 700;
+font-size: 40px;
+line-height: 56px;
+text-transform: capitalize;
+color: #222F54;
+}
+h3
+{
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 40px;
+align-items: center;
+text-transform: capitalize;
+color: #222F54;
+}
+h4
+{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #222F54;
+}
+p
+{
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 27px;
+text-transform: capitalize;
+color: #6B748D;
+}
 .navbar-expand-lg
 {
 padding: 20px 0px;
@@ -177,28 +225,16 @@ color: #FFA406;
 border-radius: 16px;
 font-size: 18px;
 }
-.intro .content h3
-{
-font-size: 56px;
-line-height: 65px;
-color: rgba(34, 47, 84, 1);
-font-family: dm-bold;
-text-transform: capitalize;
-}
-.intro .content h3 span
+
+.intro .content h1 span
 {
 color: rgba(0, 150, 255, 1);
 font-weight: 700;
 }
 .intro .content p
 {
-font-size: 22px;
-line-height: 35px;
-color: #6B748D;
+width: 70%;
 margin-bottom: 20px;
-text-transform: capitalize;
-margin-top: 20px;
-
 }
 .intro .content a
 {
@@ -235,17 +271,14 @@ margin: 10px 0px;
 }
 .ourServices-section .main h5
 {
-justify-content: center;
-align-items: center;
-padding:10px;
+padding: 10px;
 text-transform: capitalize;
-font-family: dm-bold;
 text-align: center;
 width: 178px;
 background: rgba(255, 164, 6, 0.1);
+font-weight: 500;
 color: #FFA406;
 border-radius: 16px;
-order: 0;
 font-size: 18px;
 }
 .ourServices-section .main h3
@@ -255,12 +288,6 @@ text-transform: capitalize;
 color: rgba(34, 47, 84, 1);
 font-weight: 700;
 font-size: 40px;
-}
-.ourServices-section .main p
-{
-font-size: 16px;
-font-weight: 500;
-color: rgba(107, 116, 141, 1);
 }
 .ourServices-section .main a
 {
@@ -316,6 +343,7 @@ text-overflow: ellipsis;
 text-transform: capitalize;
 display: -webkit-box;
 -webkit-line-clamp: 2;
+height: 65px;
 -webkit-box-orient: vertical;
 }
 .ourServices-section .one a:hover
@@ -348,9 +376,8 @@ padding:10px;
 display: block;
 margin: 0 auto;
 text-transform: capitalize;
-font-family: dm-bold;
 text-align: center;
-width: 178px;
+width: 190px;
 background: rgba(255, 164, 6, 0.1);
 color: #FFA406;
 border-radius: 16px;
@@ -364,11 +391,6 @@ text-align: center;
 }
 .featuredWorks-section .head h2
 {
-color: rgba(34, 47, 84, 1);
-font-family: dm-bold;
-font-weight: 700;
-font-size: 40px;
-text-transform: capitalize;
 margin-bottom: 20px;
 }
 .featuredWorks-section .one
@@ -394,7 +416,7 @@ text-transform: capitalize;
 {
 margin-top:10px ;
 }
-.featuredWorks-section .one .content h3
+.featuredWorks-section .one .content h5
 {
 color: rgba(107, 116, 141, 1);
 text-transform: capitalize;
@@ -488,22 +510,6 @@ margin-top: 50px;
 {
 margin: 30px 0px;
 }
-.smartScaling-section .head h4
-{
-color: #222F54;
-font-family: dm-bold;
-line-height: 50px;
-font-size: 32px;
-}
-.smartScaling-section .head p
-{
-color: #6B748D;
-line-height: 30px;
-font-size: 14px;
-display: block;
-margin: 0 auto;
-width: 80%;
-}
 .smartScaling-section .one
 {
 background: #FCFEFF;
@@ -521,36 +527,46 @@ align-items: center;
 {
 margin: 20px;
 }
-.smartScaling-section .one .pic img
+.smartScaling-section .one .pic .img
 {
 transition: all .6s ease-in-out;
+bottom: 0px;
+left: 0;
+right: 0;
+position: relative;
+line-height: normal;
+background-color: transparent;
 }
-.smartScaling-section .one .pic img:hover
+.smartScaling-section .one .content .link
 {
-transform: scale(1.1);
-}
-.smartScaling-section .one .content h4
-{
+position: relative;
 font-weight: 700;
 font-size: 20px;
 line-height: 28px;
+height: auto;
 text-transform: capitalize;
 color: #222F54;
+background-color: transparent;
+bottom: 0px;
+display: block;
+width: 100%;
+text-align: left;
+margin-bottom: 14px;
+margin-left: 0px;
+}
+.smartScaling-section .one .content .link:hover
+{
+border: none;
 }
 .smartScaling-section .one .content p
 {
-font-weight: 500;
-font-size: 14px;
-line-height: 20px;
-text-transform: capitalize;
-color: #6B748D;
 overflow: hidden;
 display: -webkit-box;
 -webkit-line-clamp: 2;
 line-clamp: 2;
 -webkit-box-orient: vertical;
 }
-.smartScaling-section .one a
+.smartScaling-section .one .go
 {
 position: absolute;
 bottom: -24px;
@@ -564,14 +580,18 @@ line-height: 50px;
 text-align: center;
 color: #fff;
 }
+.smartScaling-section .one .go:hover
+{
+    background-color: #0096FF;
+}
 .smartScaling-section .one a i
 {
 transition: all .6s ease-in-out;
 }
-.smartScaling-section .one a:hover
+.smartScaling-section .one .link:hover
 {
-background-color: #0096FF;
-border: 2px solid #0096FF;
+background-color: transparent;
+border: none;
 }
 .smartScaling-section .one a:hover i
 {
@@ -593,25 +613,12 @@ padding: 70px 0px;
 {
 text-align: center;
 }
-.digitalEmpowerment-section .head h3
-{
-font-weight: 700;
-font-size: 40px;
-text-align: center;
-text-transform: capitalize;
-color: #222F54;
-}
+
 .digitalEmpowerment-section .head p
 {
-width: 60%;
+width: 70%;
 display: block;
 margin: 0  auto;
-font-weight: 500;
-font-size: 14px;
-text-align: center;
-line-height: 30px;
-text-transform: capitalize;
-color: #6B748D;
 margin-top: 12px;
 }
 .digitalEmpowerment-section .brand img
@@ -734,14 +741,9 @@ border-radius: 16px;
 order: 0;
 font-size: 18px;
 }
-.testimonials-section .head h4
+.testimonials-section .head h2
 {
-font-weight: 700;
-font-size: 40px;
-line-height: 56px;
 font-family: dm-bold;
-text-transform: capitalize;
-color: #222F54;
 margin: 20px 0px;
 }
 
@@ -993,30 +995,6 @@ background: linear-gradient(180deg, rgba(0, 150, 255, 0.1) 0%, rgba(255, 255, 25
 {
 text-align: center;
 }
-.introPage .head h4
-{
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 28px;
-text-align: center;
-text-transform: capitalize;
-color: #222F54;
-}
-.introPage .head h2
-{
-width: 60%;
-display: block;
-margin: 0 auto;
-font-weight: 700;
-font-size: 40px;
-font-family: dm-bold;
-line-height: 56px;
-text-align: center;
-text-transform: capitalize;
-color: #222F54;
-margin-top: 20px;
-}
 .aboutCompany-section
 {
 padding: 50px 0px;
@@ -1043,7 +1021,6 @@ justify-content: center;
 align-items: center;
 padding: 10px;
 text-transform: capitalize;
-font-family: dm-bold;
 text-align: center;
 width: 220px;
 background: rgba(255, 164, 6, 0.1);
@@ -1063,15 +1040,7 @@ line-height: 56px;
 text-transform: capitalize;
 color: #222F54;
 }
-.aboutCompany-section .content p
-{
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 27px;
-text-transform: capitalize;
-color: #6B748D;
-}
+
 .aboutCompany-section .one
 {
 text-align: center;
@@ -1082,30 +1051,9 @@ margin-top: 50px;
 {
 margin-bottom: 15px;
 }
-.aboutCompany-section .one h3
-{
-font-family: dm-bold;
-font-weight: 500;
-font-size: 20px;
-line-height: 28px;
-/* identical to box height, or 140% */
-text-align: center;
-text-transform: capitalize;
-color: #222F54;
-}
 .aboutCompany-section .one p
 {
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 20px;
-/* or 143% */
-text-align: center;
-text-transform: capitalize;
-display: block;
-margin:0 auto;
 width: 90%;
-color: #6B748D;
 overflow: hidden;
 text-overflow: ellipsis;
 display: -webkit-box;
@@ -1120,17 +1068,10 @@ padding: 50px 0px;
 .coreValues-section .head
 {
 text-align: center;
+    margin-bottom: 30px;
 }
-.coreValues-section .head h3
+.coreValues-section .head h2
 {
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 56px;
-text-align: center;
-text-transform: capitalize;
-color: #222F54;
-font-family: dm-bold;
 margin-bottom: 20px;
 }
 .coreValues-section .head p
@@ -1138,14 +1079,6 @@ margin-bottom: 20px;
 display: block;
 margin: 0 auto;
 width: 75%;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 20px;
-/* or 143% */
-text-align: center;
-text-transform: capitalize;
-color: #6B748D;
 }
 .coreValues-section .one
 {
@@ -1217,7 +1150,6 @@ padding: 10px;
 display: block;
 margin: 0 auto;
 text-transform: capitalize;
-font-family: dm-bold;
 text-align: center;
 width: 220px;
 background: rgba(255, 164, 6, 0.1);
@@ -1227,18 +1159,7 @@ order: 0;
 font-size: 18px;
 margin-bottom: 20px;
 }
-.ourTeam-section .head h1
-{
-font-family: dm-bold;
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 56px;
-/* identical to box height, or 140% */
-text-align: center;
-text-transform: capitalize;
-color: #222F54;
-}
+
 .ourTeam-section .one
 {
 background: #F6FBFF;
@@ -1344,7 +1265,6 @@ padding: 20px 0px;
 }
 .portfolio-section .filter h4
 {
-font-family: dm-bold;
 font-style: normal;
 font-weight: 700;
 font-size: 40px;
@@ -1539,18 +1459,7 @@ color: #6B748D;
 }
 .portfolio-section .projects .one p
 {
-font-weight: 500;
-font-size: 16px;
-line-height: 27px;
-align-items: center;
-text-transform: capitalize;
-color: #6B748D;
 margin-bottom: 12px;
-overflow: hidden;
-text-overflow: ellipsis;
-display: -webkit-box;
--webkit-line-clamp: 3;
--webkit-box-orient: vertical;
 }
 .portfolio-section .loading
 {
@@ -1597,26 +1506,6 @@ color: #222F54;
 .portfolioDetails .content .head h5 img
 {
 margin-right: 8px;
-}
-.portfolioDetails .content .data h1
-{
-font-weight: 700;
-font-size: 40px;
-line-height: 56px;
-/* or 140% */
-text-transform: capitalize;
-color: #222F54;
-padding-right: 100px;
-}
-.portfolioDetails .content .data p
-{
-font-weight: 500;
-font-size: 16px;
-line-height: 27px;
-align-items: center;
-text-transform: capitalize;
-color: #6B748D;
-padding-right: 100px;
 }
 .portfolioDetails .content .data ul
 {
@@ -1868,28 +1757,10 @@ order: 0;
 font-size: 18px;
 margin-bottom: 12px;
 }
-.career-section .content h3
-{
-font-family: dm-bold;
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 56px;
-text-transform: capitalize;
-color: #222F54;
-}
-.career-section .content h3 span
+
+.career-section .content h1 span
 {
 color: #0096FF;
-}
-.career-section .content p
-{
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 27px;
-text-transform: capitalize;
-color: #6B748D;
 }
 .atmosphere-section
 {
@@ -1990,6 +1861,7 @@ line-height: 28px;
 text-align: center;
 text-transform: capitalize;
 color: #FFFFFF;
+    margin-bottom: 0px;
 }
 .hiringCareers-section table h4
 {
@@ -1998,6 +1870,8 @@ font-size: 20px;
 line-height: 28px;
 text-transform: capitalize;
 color: #FFFFFF;
+    margin-bottom: 0px;
+
 }
 .hiringCareers-section table span
 {
@@ -2010,8 +1884,6 @@ color: #FFFFFF;
 }
 .hiringCareers-section table a
 {
-font-style: normal;
-font-weight: 700;
 font-size: 18px;
 line-height: 28px;
 float: right;
@@ -2026,7 +1898,7 @@ transform: rotate(45deg);
 
 .hiringCareers-section .loading
 {
-margin-top: 100px;
+margin-top: 70px;
 margin-bottom: 50px;
 }
 .hiringCareers-section .loading img
@@ -2095,7 +1967,7 @@ color: #6B748D;
 overflow: hidden;
 text-overflow: ellipsis;
 display: -webkit-box;
--webkit-line-clamp: 1;
+-webkit-line-clamp: 2;
 -webkit-box-orient: vertical;
 padding-bottom: 20px;
 }
@@ -2106,7 +1978,7 @@ margin-top: 30px;
 .articlesPage .articlesPage-content .pic
 {
 position: relative;
-    margin-bottom: 15px;
+margin-bottom: 15px;
 }
 .articlesPage .articlesPage-content .pic img
 {
@@ -2114,7 +1986,7 @@ width: 100%;
 object-fit: cover !important;
 border-radius: 12px;
 }
-.articlesPage .articlesPage-content .pic a
+.articlesPage .articlesPage-content .pic .link
 {
 position: absolute;
 right: 0px;
@@ -2130,6 +2002,7 @@ line-height: 27px;
 text-transform: capitalize;
 font-size: 16px;
 color: #0096FF;
+    margin-bottom: 0px;
 }
 .articlesPage .articlesPage-content .pic a i
 {
@@ -2139,156 +2012,611 @@ color: #0096FF;
 }
 .articlesPage .articlesPage-content h2
 {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    text-transform: capitalize;
-    color: #222F54;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+text-transform: capitalize;
+color: #222F54;
 }
 .articlesPage .articlesPage-content h2 span
 {
-    color: #6B748D;
+color: #6B748D;
 }
-.articlesPage .articlesPage-content h4
+.articlesPage .articlesPage-content a
 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 28px;
-    text-transform: capitalize;
-    color: #222F54;
-    margin-bottom: 30px;
-
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+text-transform: capitalize;
+color: #222F54;
+margin-bottom: 30px;
+display: block;
+transition: all .6s ease-in-out;
+}
+.articlesPage .articlesPage-content a:hover
+{
+    color:#0096FF;
 }
 .articlesPage .search-bar
 {
-    background: #FCFEFF;
-    padding: 20px 20px;
-    border: 1px solid rgba(107, 116, 141, 0.1);
-    border-radius: 20px;
-    position: relative;
-    margin-bottom: 30px;
+background: #FCFEFF;
+padding: 20px 20px;
+border: 1px solid rgba(107, 116, 141, 0.1);
+border-radius: 20px;
+position: relative;
+margin-bottom: 30px;
 }
 .articlesPage .search-bar form input
 {
-    background: #FFFFFF;
-    border: 1px solid rgba(107, 116, 141, 0.1);
-    border-radius: 30px;
-    width: 100%;
-    padding: 8px 12px;
-    outline: none;
-    position: relative;
+background: #FFFFFF;
+border: 1px solid rgba(107, 116, 141, 0.1);
+border-radius: 30px;
+width: 100%;
+padding: 8px 12px;
+outline: none;
+position: relative;
 }
 .articlesPage .search-bar form span
 {
-    position: absolute;
-    right: 35px;
-    margin-top: 7px;
+position: absolute;
+right: 35px;
+margin-top: 7px;
 }
 .articlesPage .categories-bar
 {
-    background: #FCFEFF;
-    padding: 20px 20px;
-    border: 1px solid rgba(107, 116, 141, 0.1);
-    border-radius: 20px;
-    position: relative;
-    margin-bottom: 30px;
+background: #FCFEFF;
+padding: 20px 20px;
+border: 1px solid rgba(107, 116, 141, 0.1);
+border-radius: 20px;
+position: relative;
+margin-bottom: 30px;
 }
 .articlesPage .categories-bar h4
 {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 28px;
-    text-transform: capitalize;
-    color: #222F54;
-    margin-bottom: 20px;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+text-transform: capitalize;
+color: #222F54;
+margin-bottom: 20px;
 }
 .articlesPage .categories-bar ul
 {
-    margin-top: 14px;
-    border-left: 1px solid rgba(117, 123, 138, 0.7);
+margin-top: 14px;
+border-left: 1px solid rgba(117, 123, 138, 0.7);
 }
 .articlesPage .categories-bar ul li
 {
-    display: block;
-    transition: all .6s ease-in-out;
-    margin-top: 15px;
+display: block;
+transition: all .6s ease-in-out;
+margin-top: 15px;
 }
 .articlesPage .categories-bar ul li a
 {
-    color: #222F54;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 27px;
-    text-transform: capitalize;
-    transition: all .6s ease-in-out;
-    display: block;
-    padding-left: 20px;
+color: #222F54;
+font-weight: 500;
+font-size: 16px;
+line-height: 27px;
+text-transform: capitalize;
+transition: all .6s ease-in-out;
+display: block;
+padding-left: 20px;
 }
 .articlesPage .categories-bar ul li:hover a
 {
-    border-left: 4px solid #0096FF;
-    padding-left: 20px;
+border-left: 4px solid #0096FF;
+padding-left: 20px;
 }
 .articlesPage .categories-bar ul li .active
 {
-    border-left: 4px solid #0096FF;
-    color: #0096FF;
-    font-weight: 700;
+border-left: 4px solid #0096FF;
+color: #0096FF;
+font-weight: 700;
 
 }
 .articlesPage .tags-bar
 {
-    background: #FCFEFF;
-    padding: 20px 20px;
-    border: 1px solid rgba(107, 116, 141, 0.1);
-    border-radius: 20px;
-    position: relative;
+background: #FCFEFF;
+padding: 20px 20px;
+border: 1px solid rgba(107, 116, 141, 0.1);
+border-radius: 20px;
+position: relative;
 }
 .articlesPage .tags-bar h4
 {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 28px;
-    text-transform: capitalize;
-    color: #222F54;
-    margin-bottom: 20px;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+text-transform: capitalize;
+color: #222F54;
+margin-bottom: 20px;
 }
 .articlesPage .tags-bar ul
 {
-    margin-top: 14px;
+margin-top: 14px;
 }
 .articlesPage .tags-bar ul li
 {
-    display: inline-block;
-    transition: all .6s ease-in-out;
-    margin-top: 15px;
-    background: rgba(107, 116, 141, 0.1);
-    border-radius: 30px;
-    width: 30%;
-    text-align: center;
-    padding: 12px;
-    transition: all .6s ease-in-out;
+display: inline-block;
+transition: all .6s ease-in-out;
+margin-top: 15px;
+background: rgba(107, 116, 141, 0.1);
+border-radius: 30px;
+width: 30%;
+text-align: center;
+padding: 12px;
+transition: all .6s ease-in-out;
 }
 .articlesPage .tags-bar ul li:hover
 {
-    background-color: #0096FF;
+background-color: #0096FF;
 }
 .articlesPage .tags-bar ul li:hover a
 {
-    color: #fff;
+color: #fff;
 }
 .articlesPage .tags-bar ul li a
 {
+font-weight: 500;
+text-transform: capitalize;
+transition: all .6s ease-in-out;
+display: block;
+padding-left: 0px;
+font-size: 14px;
+line-height: 20px;
+color: #6B748D;
+}
+.career-bk
+{
+margin-bottom: 30px;
+}
+.career-bk img
+{
+width: 100%;
+object-fit: cover!important;
+}
+
+.careerDetails-section .data ul
+{
+border-bottom:1px solid rgba(107, 116, 141, 0.1);
+padding-bottom: 20px;
+    margin-top: 20px;
+}
+.careerDetails-section .data ul li
+{
+display: inline-block;
+width: 32%;
+}
+.careerDetails-section .data ul li h5
+{
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+text-transform: capitalize;
+color: #757B8A;
+}
+.careerDetails-section .data ul li h5 span
+{
+display: block;
+    font-family: dm-bold;
+font-weight: 700;
+font-size: 16px;
+line-height: 27px;
+margin-top: 12px;
+text-transform: capitalize;
+color: #222F54;
+}
+.careerDetails-section .title h3
+{
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+text-transform: capitalize;
+color: #222F54;
+margin-bottom: 12px;
+}
+.careerDetails-section .title
+{
+margin-top: 30px;
+}
+.careerDetails-section .title h3 img
+{
+margin-right: 10px;
+}
+.careerDetails-section .title p
+{
+margin-top: 20px;
+margin-bottom: 50px;
+
+}
+.careerDetails-section .title ul
+{
+margin-bottom: 50px;
+}
+.careerDetails-section .title ul li
+{
+display: flex;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 27px;
+text-transform: capitalize;
+color: #6B748D;
+align-items: baseline;
+margin-top: 12px;
+width: 100%;
+}
+.careerDetails-section .title ul li i
+{
+margin-right: 8px;
+font-size: 4px;
+}
+.careerDetails-section .applyCard
+{
+    position: fixed;
+background: #FFFFFF;
+border: 1px solid rgba(107, 116, 141, 0.1);
+border-radius: 20px;
+margin-top: -150px;
+padding: 30px;
+    top: 400px;
+    width: 450px;
+}
+.careerDetails-section .applyCard h6
+{
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+text-transform: capitalize;
+color: #757B8A;
+}
+.careerDetails-section .applyCard h3
+{
+font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+text-transform: capitalize;
+color: #222F54;
+}
+.careerDetails-section .applyCard a
+{
+padding: 16px 32px;
+background: #0096FF;
+border-radius: 30px;
+display: block;
+transition: all .6s ease-in-out;
+margin: 0 auto;
+margin-top: 30px;
+text-align: center;
+color: #fff;
+text-transform: capitalize;
+}
+.careerDetails-section .applyCard a:hover
+{
+background-color: #FFA406;
+}
+.articlesPage .post-content .pic
+{
+position: relative;
+margin-bottom: 15px;
+}
+.articlesPage .post-content .pic img
+{
+width: 100%;
+object-fit: cover !important;
+border-radius: 12px;
+}
+
+.articlesPage .post-content h2
+{
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+text-transform: capitalize;
+color: #222F54;
+}
+.articlesPage .post-content h2 span
+{
+color: #6B748D;
+}
+.articlesPage .post-content h4
+{
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+    text-align: left;
+line-height: 28px;
+text-transform: capitalize;
+color: #222F54;
+margin-bottom: 20px;
+}
+.articlesPage .post-content p
+{
+    margin-bottom: 20px;
+}
+.articlesPage .post-content ul
+{
+margin-bottom: 50px;
+}
+.articlesPage .post-content ul li
+{
+display: flex;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 27px;
+text-transform: capitalize;
+color: #6B748D;
+align-items: baseline;
+margin-top: 12px;
+width: 70%;
+}
+.articlesPage .post-content ul li i
+{
+margin-right: 8px;
+font-size: 4px;
+}
+.articlesPage .post-content .postsPic
+{
+display: flex;
+margin-bottom: 30px;
+}
+.articlesPage .post-content .postsPic img
+{
+width: 300px;
+margin-right: 15px;
+object-fit: cover!important;
+}
+.articlesPage .recentPosts
+{
+background: #FCFEFF;
+padding: 20px 20px;
+border: 1px solid rgba(107, 116, 141, 0.1);
+border-radius: 20px;
+position: relative;
+margin-bottom: 30px;
+}
+.articlesPage .recentPosts h4
+{
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+text-transform: capitalize;
+color: #222F54;
+margin-bottom: 20px;
+}
+.articlesPage .recentPosts .one
+{
+display: flex;
+margin-bottom: 15px;
+}
+.articlesPage .recentPosts .one .content
+{
+margin-left: 12px;
+}
+.articlesPage .recentPosts .one .content h2
+{
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+text-transform: capitalize;
+color: #6B748D;
+}
+.articlesPage .recentPosts .one .content a
+{
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+text-transform: capitalize;
+color: #222F54;
+overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
+}
+.articlesPage  .paginatePage
+{
+display: flex;
+background-color: #fff;
+padding-bottom: 50px;
+justify-content: space-between;
+    margin-top: 50px;
+}
+.articlesPage .paginatePage .nextProject
+{
+    align-items: center;
+display: flex;
+}
+.articlesPage  .paginatePage .nextProject img
+{
+border-radius: 12px;
+width: 80px;
+height: 80px;
+margin-left: 15px;
+}
+.articlesPage .paginatePage .nextProject .content h3
+{
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+text-align: right;
+text-transform: capitalize;
+color: #0096FF;
+margin-top: 10px;
+}
+.articlesPage .paginatePage .nextProject .content a
+{
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+text-transform: capitalize;
+color: #222F54;
+}
+.articlesPage  .paginatePage .prevProject
+{
+    align-items: center;
+display: flex;
+}
+.articlesPage .paginatePage .prevProject img
+{
+border-radius: 12px;
+width: 80px;
+height: 80px;
+margin-right: 15px;
+}
+.articlesPage .paginatePage .prevProject .content h3
+{
     font-weight: 500;
-    text-transform: capitalize;
-    transition: all .6s ease-in-out;
-    display: block;
-    padding-left: 0px;
     font-size: 14px;
     line-height: 20px;
-    color: #6B748D;
+    text-align: left;
+    text-transform: capitalize;
+    color: #0096FF;
+    margin-top: 10px;
 }
+.articlesPage .paginatePage .prevProject .content a
+{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #222F54;
+}
+
+.contactUs-Content
+{
+    padding-top: 20px;
+}
+.contactUs-Content .contactData
+{
+    background: #FFFFFF;
+    border: 1px solid rgba(107, 116, 141, 0.1);
+    border-radius: 20px;
+padding: 40px 0px;
+}
+.contactUs-Content .contactData form
+{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+.contactUs-Content form .textInputs
+{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.contactUs-Content form .textInputs input
+{
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid rgba(107, 116, 141, 0.1);
+    border-radius: 10px;
+    padding: 12px;
+}
+.contactUs-Content form .textInputs .email
+{
+    margin-left: 20px;
+}
+.contactUs-Content form input
+{
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid rgba(107, 116, 141, 0.1);
+    outline: none;
+
+    border-radius: 10px;
+    padding: 12px;
+}
+.contactUs-Content form textarea
+{
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid rgba(107, 116, 141, 0.1);
+    outline: none;
+    border-radius: 10px;
+    padding: 12px;
+    height: 144px;
+    resize: none;
+    margin-top: 20px;
+}
+.contactUs-Content form button
+{
+    background: #0096FF;
+    border-radius: 30px;
+    width: 180px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: #fff;
+    transition: all .6s ease-in-out;
+    height: 50px;
+    border: none;
+}
+.contactUs-Content form button:hover
+{
+    background-color: #2a6496;
+}
+.contactUs-Content .contact-info
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.contactUs-Content .contact-info .one
+{
+    background: #FFFFFF;
+    border: 1px solid rgba(107, 116, 141, 0.1);
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    padding: 10px 15px;
+}
+.contactUs-Content .contact-info .one img
+{
+    padding: 12px;
+    width: 65px;
+    margin-right: 10px;
+}
+.contactUs-Content .contact-info .mid
+{
+    margin: 0px 15px;
+}
+.contactUs-Content .contact-info .one h6
+{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #222F54;
+    margin-bottom: 0px;
+}
+
+.contactUs-Content .map
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contactUs-Content .map iframe
+{
+    height: 300px;
+    border-radius: 12px;
+}
+
+
